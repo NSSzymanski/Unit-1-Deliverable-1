@@ -1,0 +1,132 @@
+    header {
+            background-color: #F2F2F2;
+            font-family: 'Roboto', sans-serif;
+            padding: 15px;
+        }
+
+      
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+        
+
+        h1 {
+            margin-top: 0;
+        }
+
+            .blue-text {
+                color: #20a8b4;
+            }
+            .orange-text{
+                color: #ff5c0f;
+            }
+
+                .nav-list ul, li{
+                    list-style-type: none;
+                    font-family: 'Roboto', sans-serif;
+                    border: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+
+                .nav-list li:hover {
+                    color: #ff5c0f;
+                }
+
+                    .contact-us {
+                        font-family: 'Roboto', sans-serif;
+                        color: #fff;
+                        background-color: #20a8b4;
+                        border-radius: 10px;
+                        padding: 12px;
+                        border: 0px
+                        
+                    }
+                    .contact-us:hover {
+                        background-color: #ff5c0f;
+                    }
+
+                    button {
+                        width: 100%;
+                    }
+                
+                    img {
+                        display: none;
+                    }
+
+    .orange-text-2 {
+        color: #ff5c0f;
+    }
+
+    .learn-more {
+        color: #fff;
+        background-color: #20a8b4;
+        border-radius: 10px;
+        padding: 12px;
+        border: 0px;
+    }
+
+    .learn-more:hover {
+        background-color: #ff5c0f;
+    }
+
+
+
+@media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
+        h1 {
+            padding-top: 20px;  
+        }
+
+        .nav-list ul, li {
+            list-style-type: none;
+            font-family: 'Roboto', sans-serif;
+            border: 0;
+            display: inline;
+            margin:.5 em;
+            flex-direction: row;
+            justify-content: flex-end;
+            text-align: right;
+
+        }
+
+
+    section {
+         margin: 0;
+       padding-top: 10%;
+       padding-left: 15px;
+       position: relative;
+       display: flex;
+       flex-direction: row; 
+       align-items: center;
+    }
+
+
+    button {
+        width:auto;
+    }
+
+
+    img {
+        position: static;
+        bottom: 10%;
+        right: 0;
+        display: block;
+        float: right;
+        width: 800px;
+    }
+
+    .side-by-side-containter {
+        display: block;
+       position: static;
+    }
+}
